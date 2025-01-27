@@ -1,0 +1,51 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-bottom: 20px;
+}
+
+.card-number {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.card-expiration,
+.card-cvv {
+  font-weight: bold;
+}
+
+.card-footer {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
